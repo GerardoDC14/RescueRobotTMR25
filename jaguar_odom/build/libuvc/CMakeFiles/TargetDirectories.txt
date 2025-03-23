@@ -1,0 +1,9 @@
+/home/gerardo/Projects/Robotics/RescueRobot2025/jaguar_odom/build/libuvc/CMakeFiles/uvc.dir
+/home/gerardo/Projects/Robotics/RescueRobot2025/jaguar_odom/build/libuvc/CMakeFiles/uvc_static.dir
+/home/gerardo/Projects/Robotics/RescueRobot2025/jaguar_odom/build/libuvc/CMakeFiles/example.dir
+/home/gerardo/Projects/Robotics/RescueRobot2025/jaguar_odom/build/libuvc/CMakeFiles/edit_cache.dir
+/home/gerardo/Projects/Robotics/RescueRobot2025/jaguar_odom/build/libuvc/CMakeFiles/rebuild_cache.dir
+/home/gerardo/Projects/Robotics/RescueRobot2025/jaguar_odom/build/libuvc/CMakeFiles/list_install_components.dir
+/home/gerardo/Projects/Robotics/RescueRobot2025/jaguar_odom/build/libuvc/CMakeFiles/install.dir
+/home/gerardo/Projects/Robotics/RescueRobot2025/jaguar_odom/build/libuvc/CMakeFiles/install/local.dir
+/home/gerardo/Projects/Robotics/RescueRobot2025/jaguar_odom/build/libuvc/CMakeFiles/install/strip.dir

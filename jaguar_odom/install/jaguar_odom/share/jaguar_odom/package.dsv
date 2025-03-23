@@ -1,0 +1,6 @@
+source;share/jaguar_odom/hook/pythonpath.ps1
+source;share/jaguar_odom/hook/pythonpath.dsv
+source;share/jaguar_odom/hook/pythonpath.sh
+source;share/jaguar_odom/hook/ament_prefix_path.ps1
+source;share/jaguar_odom/hook/ament_prefix_path.dsv
+source;share/jaguar_odom/hook/ament_prefix_path.sh
