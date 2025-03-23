@@ -1,4 +1,0 @@
-Invoking command in '/home/gerardo/Projects/Robotics/RescueRobot2025/jaguar_odom/build/libuvc': /usr/bin/cmake --build /home/gerardo/Projects/Robotics/RescueRobot2025/jaguar_odom/build/libuvc -- -j16 -l16
-Invoked command in '/home/gerardo/Projects/Robotics/RescueRobot2025/jaguar_odom/build/libuvc' returned '0': /usr/bin/cmake --build /home/gerardo/Projects/Robotics/RescueRobot2025/jaguar_odom/build/libuvc -- -j16 -l16
-Invoking command in '/home/gerardo/Projects/Robotics/RescueRobot2025/jaguar_odom/build/libuvc': /usr/bin/cmake --install /home/gerardo/Projects/Robotics/RescueRobot2025/jaguar_odom/build/libuvc
-Invoked command in '/home/gerardo/Projects/Robotics/RescueRobot2025/jaguar_odom/build/libuvc' returned '0': /usr/bin/cmake --install /home/gerardo/Projects/Robotics/RescueRobot2025/jaguar_odom/build/libuvc
