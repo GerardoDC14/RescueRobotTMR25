@@ -64,7 +64,7 @@ rclc_executor_t executor;
 // Encoder ISRs
 // ----------------------
 void IRAM_ATTR m1ISR() {
-  if (digitalRead(M1_CH_B) == LOW) { // Check if M1_CH_B is LOW
+  if (digitalRead(M1_CH_B) == LOW) {
     m1Count++;
   } else {
     m1Count--;
@@ -148,7 +148,7 @@ void sensorReadTask(void * parameter) {
       xSemaphoreGive(imu_mutex);
     }
 
-    vTaskDelay(pdMS_TO_TICKS(10)); // Corrected
+    vTaskDelay(pdMS_TO_TICKS(10)); 
   }
 }
 

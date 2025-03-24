@@ -16,8 +16,8 @@ WHEEL_CIRCUMFERENCE = math.pi * WHEEL_DIAMETER
 TRACK_WIDTH = 0.47                      # in meters (47 cm)
 
 # Complementary filter parameters
-ALPHA_OMEGA = 0.6   # Weight for fusing IMU angular velocity with encoder-based angular velocity
-ALPHA_V = 0.8       # Weight for linear velocity filtering
+ALPHA_OMEGA = 0.6   
+ALPHA_V = 0.8      
 
 class OdomNode(Node):
     def __init__(self):
@@ -33,7 +33,7 @@ class OdomNode(Node):
         # Odometry state variables
         self.x = 0.0
         self.y = 0.0
-        self.yaw = 0.0   # Integrated or fused orientation in radians
+        self.yaw = 0.0  
         self.last_integration_time = None
         
         # Latest sensor measurements
@@ -60,10 +60,6 @@ class OdomNode(Node):
         self.imu_angular_z = msg.angular_velocity.z
 
     def encoder_callback(self, msg: String):
-        # Expected encoder message format:
-        # "[<timestamp> ms] M1: <v_left> m/s, <rpm_left> RPM, <dir_left> | M2: <v_right> m/s, <rpm_right> RPM, <dir_right>"
-        # Example:
-        # "[623999 ms] M1: 1.21 m/s, 128.28 RPM, F | M2: 1.15 m/s, 121.50 RPM, F"
         data_str = msg.data.strip()
         pattern = (r'\[(\d+)\s*ms\]\s*M1:\s*([-\d.]+)\s*m/s,\s*([-\d.]+)\s*RPM,\s*([FR])\s*\|\s*'
                    r'M2:\s*([-\d.]+)\s*m/s,\s*([-\d.]+)\s*RPM,\s*([FR])')
@@ -77,7 +73,6 @@ class OdomNode(Node):
             rpm_right = float(match.group(6))
             dir_right = match.group(7)
             
-            # Adjust velocities for direction: 'R' means reverse → negative
             v_left = raw_v_left if dir_left == 'F' else -raw_v_left
             v_right = raw_v_right if dir_right == 'F' else -raw_v_right
             
@@ -90,7 +85,6 @@ class OdomNode(Node):
                 f"M2: {v_right:.2f} m/s, {rpm_right:.2f} RPM, {dir_right}"
             )
             
-            # Compute integration time in seconds
             current_time = timestamp_ms / 1000.0
             if self.prev_encoder_time is None:
                 self.prev_encoder_time = current_time
@@ -101,7 +95,7 @@ class OdomNode(Node):
                 self.get_logger().warn("Non-positive dt; skipping odometry update")
                 return
             
-            # Compute robot linear velocity from encoders (average of both wheels)
+            # Compute robot linear velocity from encoders 
             encoder_v_robot = (v_left + v_right) / 2.0
             # Compute encoder-derived angular velocity (rad/s)
             encoder_omega = (v_right - v_left) / TRACK_WIDTH
