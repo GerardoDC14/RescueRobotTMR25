@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-8f72a9a22d492b3098e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "astra_camera",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "astra_camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-astra_camera-Debug-ba202bebf91c780a76d2.json",
+					"name" : "astra_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "astra_camera_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-astra_camera_node-Debug-2ffca301d996fa78cc09.json",
+					"name" : "astra_camera_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "astra_camera_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-astra_camera_uninstall-Debug-688c678d5f6579d76fbe.json",
+					"name" : "astra_camera_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clean_shm_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clean_shm_node-Debug-43bfa6d9f78c75c4c05a.json",
+					"name" : "clean_shm_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "list_devices_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-list_devices_node-Debug-77da17e382290d58af3b.json",
+					"name" : "list_devices_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-ccf0c019250b7a2b6c50.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/astra_camera",
+		"source" : "/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/src/ros2_astra_camera/astra_camera"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

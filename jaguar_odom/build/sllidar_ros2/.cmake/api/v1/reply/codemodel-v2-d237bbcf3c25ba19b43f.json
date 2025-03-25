@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-395dafe442435336e312.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sllidar_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "sllidar_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sllidar_client-Release-4b9d23ea29ac1a841777.json",
+					"name" : "sllidar_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sllidar_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sllidar_node-Release-08a870d2272d2a0de705.json",
+					"name" : "sllidar_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sllidar_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sllidar_ros2_uninstall-Release-5254e60b38b10842b5e0.json",
+					"name" : "sllidar_ros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-7e519b482b086de28aaa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/sllidar_ros2",
+		"source" : "/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/src/sllidar_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

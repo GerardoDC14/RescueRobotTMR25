@@ -1,0 +1,22 @@
+[0.580s] Invoking command in '/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/src/jaguar_odom': PYTHONPATH=/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jaguar_odom build --build-base /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/build install --record /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/install.log --single-version-externally-managed install_data
+[0.745s] running egg_info
+[0.745s] writing ../../build/jaguar_odom/jaguar_odom.egg-info/PKG-INFO
+[0.745s] writing dependency_links to ../../build/jaguar_odom/jaguar_odom.egg-info/dependency_links.txt
+[0.745s] writing entry points to ../../build/jaguar_odom/jaguar_odom.egg-info/entry_points.txt
+[0.745s] writing requirements to ../../build/jaguar_odom/jaguar_odom.egg-info/requires.txt
+[0.746s] writing top-level names to ../../build/jaguar_odom/jaguar_odom.egg-info/top_level.txt
+[0.747s] reading manifest file '../../build/jaguar_odom/jaguar_odom.egg-info/SOURCES.txt'
+[0.748s] writing manifest file '../../build/jaguar_odom/jaguar_odom.egg-info/SOURCES.txt'
+[0.748s] running build
+[0.748s] running build_py
+[0.748s] running install
+[0.750s] running install_lib
+[0.751s] running install_data
+[0.751s] copying launch/slam.launch.py -> /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/share/jaguar_odom/launch
+[0.751s] running install_egg_info
+[0.752s] removing '/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/lib/python3.10/site-packages/jaguar_odom-0.0.0-py3.10.egg-info' (and everything under it)
+[0.752s] Copying ../../build/jaguar_odom/jaguar_odom.egg-info to /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/lib/python3.10/site-packages/jaguar_odom-0.0.0-py3.10.egg-info
+[0.753s] running install_scripts
+[0.766s] Installing encoder_odom_node script to /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/lib/jaguar_odom
+[0.766s] writing list of installed files to '/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/install.log'
+[0.782s] Invoked command in '/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/src/jaguar_odom' returned '0': PYTHONPATH=/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jaguar_odom build --build-base /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/build install --record /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/install.log --single-version-externally-managed install_data

@@ -11,13 +11,13 @@ def generate_launch_description():
                 'src/sllidar_ros2/launch/view_sllidar_a2m12_launch.py'
             )
         ),
-        # Odometry node (your encoder_odom_node)
+        # Odometry node 
         Node(
             package='jaguar_odom',
             executable='encoder_odom_node',
             name='odom_node'
         ),
-        # Static transform publisher for LiDAR (adjust as needed)
+        # Static transform publisher for LiDAR 
         Node(
             package='tf2_ros',
             executable='static_transform_publisher',
@@ -31,6 +31,7 @@ def generate_launch_description():
             name='slam_toolbox',
             parameters=[{
                 'use_sim_time': False,
+                'slam_mode': True,
                 'base_frame': 'base_footprint',
                 'odom_frame': 'odom',
                 'map_frame': 'map',
@@ -38,9 +39,12 @@ def generate_launch_description():
                 'odom_topic': '/odom',
                 'resolution': 0.05,
                 'max_laser_range': 12.0,
-                'minimum_time_interval': 1.0,  # Increased
-                'transform_publish_period': 0.1,  # Increased
-                'message_filter_queue_size': 200000  # Increased
+                'minimum_time_interval': 1.0,
+                'transform_publish_period': 0.1,
+                'message_filter_queue_size': 200000,
+                'load_state_filename': '',
+                'map_file_name': '',
+                'enable_interactive_mode': False
             }]
         )
     ])

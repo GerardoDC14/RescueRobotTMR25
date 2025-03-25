@@ -1,0 +1,39 @@
+[0.454s] Invoking command in '/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/src/jaguar_odom': PYTHONPATH=/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jaguar_odom build --build-base /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/build install --record /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/install.log --single-version-externally-managed install_data
+[0.612s] running egg_info
+[0.612s] creating ../../build/jaguar_odom/jaguar_odom.egg-info
+[0.612s] writing ../../build/jaguar_odom/jaguar_odom.egg-info/PKG-INFO
+[0.612s] writing dependency_links to ../../build/jaguar_odom/jaguar_odom.egg-info/dependency_links.txt
+[0.612s] writing entry points to ../../build/jaguar_odom/jaguar_odom.egg-info/entry_points.txt
+[0.613s] writing requirements to ../../build/jaguar_odom/jaguar_odom.egg-info/requires.txt
+[0.613s] writing top-level names to ../../build/jaguar_odom/jaguar_odom.egg-info/top_level.txt
+[0.613s] writing manifest file '../../build/jaguar_odom/jaguar_odom.egg-info/SOURCES.txt'
+[0.614s] reading manifest file '../../build/jaguar_odom/jaguar_odom.egg-info/SOURCES.txt'
+[0.614s] writing manifest file '../../build/jaguar_odom/jaguar_odom.egg-info/SOURCES.txt'
+[0.614s] running build
+[0.614s] running build_py
+[0.615s] creating /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/build
+[0.615s] creating /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/build/lib
+[0.615s] creating /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/build/lib/jaguar_odom
+[0.615s] copying jaguar_odom/__init__.py -> /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/build/lib/jaguar_odom
+[0.615s] copying jaguar_odom/encoder_odom_node.py -> /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/build/lib/jaguar_odom
+[0.615s] running install
+[0.616s] running install_lib
+[0.616s] creating /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/lib/python3.10/site-packages/jaguar_odom
+[0.616s] copying /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/build/lib/jaguar_odom/__init__.py -> /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/lib/python3.10/site-packages/jaguar_odom
+[0.616s] copying /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/build/lib/jaguar_odom/encoder_odom_node.py -> /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/lib/python3.10/site-packages/jaguar_odom
+[0.617s] byte-compiling /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/lib/python3.10/site-packages/jaguar_odom/__init__.py to __init__.cpython-310.pyc
+[0.617s] byte-compiling /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/lib/python3.10/site-packages/jaguar_odom/encoder_odom_node.py to encoder_odom_node.cpython-310.pyc
+[0.618s] running install_data
+[0.618s] creating /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/share/ament_index
+[0.618s] creating /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/share/ament_index/resource_index
+[0.618s] creating /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/share/ament_index/resource_index/packages
+[0.618s] copying resource/jaguar_odom -> /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/share/ament_index/resource_index/packages
+[0.618s] copying package.xml -> /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/share/jaguar_odom
+[0.618s] creating /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/share/jaguar_odom/launch
+[0.618s] copying launch/slam.launch.py -> /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/share/jaguar_odom/launch
+[0.618s] running install_egg_info
+[0.619s] Copying ../../build/jaguar_odom/jaguar_odom.egg-info to /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/lib/python3.10/site-packages/jaguar_odom-0.0.0-py3.10.egg-info
+[0.619s] running install_scripts
+[0.632s] Installing encoder_odom_node script to /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/lib/jaguar_odom
+[0.632s] writing list of installed files to '/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/install.log'
+[0.650s] Invoked command in '/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/src/jaguar_odom' returned '0': PYTHONPATH=/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/install/jaguar_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jaguar_odom build --build-base /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/build install --record /home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/jaguar_odom/install.log --single-version-externally-managed install_data

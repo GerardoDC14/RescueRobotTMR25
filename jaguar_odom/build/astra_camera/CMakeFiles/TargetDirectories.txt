@@ -1,0 +1,13 @@
+/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/astra_camera/CMakeFiles/uninstall.dir
+/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/astra_camera/CMakeFiles/astra_camera_uninstall.dir
+/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/astra_camera/CMakeFiles/astra_camera.dir
+/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/astra_camera/CMakeFiles/astra_camera_node.dir
+/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/astra_camera/CMakeFiles/list_devices_node.dir
+/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/astra_camera/CMakeFiles/clean_shm_node.dir
+/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/astra_camera/CMakeFiles/test.dir
+/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/astra_camera/CMakeFiles/edit_cache.dir
+/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/astra_camera/CMakeFiles/rebuild_cache.dir
+/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/astra_camera/CMakeFiles/list_install_components.dir
+/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/astra_camera/CMakeFiles/install.dir
+/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/astra_camera/CMakeFiles/install/local.dir
+/home/gerardo/Projects/Robotics/RescueRobot2025/RescueRobotTMR25/jaguar_odom/build/astra_camera/CMakeFiles/install/strip.dir
