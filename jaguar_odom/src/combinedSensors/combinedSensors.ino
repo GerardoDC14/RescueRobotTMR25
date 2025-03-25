@@ -27,7 +27,7 @@
 #define WHEEL_DIAMETER_CM 18.0
 const float wheelCircumference_m = (WHEEL_DIAMETER_CM * 3.14159265) / 100.0;
 
-#define UPDATE_INTERVAL 1000 // in ms
+#define UPDATE_INTERVAL 1000 
 #define LED_PIN 13
 
 // Encoder counts
