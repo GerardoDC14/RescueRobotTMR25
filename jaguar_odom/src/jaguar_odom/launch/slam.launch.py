@@ -11,20 +11,20 @@ def generate_launch_description():
                 'src/sllidar_ros2/launch/view_sllidar_a2m12_launch.py'
             )
         ),
-        # Odometry node 
+        # Odometry | Node 
         Node(
             package='jaguar_odom',
             executable='encoder_odom_node',
             name='odom_node'
         ),
-        # Static transform publisher for LiDAR 
+        # Static transform | Publisher | LiDAR 
         Node(
             package='tf2_ros',
             executable='static_transform_publisher',
             arguments=['0.1', '0', '0.2', '0', '0', '0', 'base_footprint', 'laser'],
             name='lidar_tf_publisher'
         ),
-        # SLAM Toolbox node
+        # SLAM | Toolbox | Node
         Node(
             package='slam_toolbox',
             executable='async_slam_toolbox_node',
