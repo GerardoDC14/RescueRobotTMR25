@@ -1,5 +1,5 @@
 
-# 🐆 Jaguar Odom Package
+# 🐆! Jaguar Odom Package
 
 This repository contains a ROS 2 package for mobile robot odometry fusion using micro-ROS on an ESP32 (or compatible MCU) and a Python-based odometry node. It integrates encoder feedback, IMU data, LiDAR, and prepares for future visual odometry with an Astra Pro Plus camera. The system is designed for accurate real-time odometry and mapping using `slam_toolbox`.
 
