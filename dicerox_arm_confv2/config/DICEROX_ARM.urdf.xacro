@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="DICEROX_ARM">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import DICEROX_ARM urdf file -->
+    <xacro:include filename="$(find dicerox_arm_confv2)/urdf/DICEROX_ARM.urdf" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="DICEROX_ARM.ros2_control.xacro" />
+
+
+    <xacro:DICEROX_ARM_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>

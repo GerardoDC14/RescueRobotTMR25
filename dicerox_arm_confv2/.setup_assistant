@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: dicERox_arm
+    relative_path: urdf/DICEROX_ARM.urdf
+  srdf:
+    relative_path: config/DICEROX_ARM.srdf
+  package_settings:
+    author_name: Gerardo Escobar
+    author_email: gerardodelcid16@gmail.com
+    generated_timestamp: 1744695611
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
