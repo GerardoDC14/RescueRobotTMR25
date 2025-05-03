@@ -1,6 +1,6 @@
 moveit_setup_assistant_config:
   urdf:
-    package: dicERox_arm
+    package: dicerox_arm_confv2
     relative_path: urdf/DICEROX_ARM.urdf
   srdf:
     relative_path: config/DICEROX_ARM.srdf
