@@ -1,3 +1,0 @@
-[console_scripts]
-encoder_odom_node = jaguar_odom.encoder_odom_node:main
-
